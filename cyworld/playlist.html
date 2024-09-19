@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Playlist</title>
+    <link href="./styles/playlist.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper__header">
+            <div class="header__title">
+                <div class="title">Playlist</div>
+                <div class="subtitle">TODAY CHOICE</div>
+            </div>
+            <div class="devideLine"></div>
+            <div class="albumWrapper">
+                <div class="albumWrapper__item">
+                    <img class="album-thumbnail" src="./images/playlist-01.jpg">
+                    <div class="album-songtitle">김철수 씨 이야기</div>
+                    <div class="album-artist">허회경</div>
+                </div>
+                <div class="albumWrapper__item">
+                    <img class="album-thumbnail" src="./images/playlist-02.jpg">
+                    <div class="album-songtitle">bye bye my blue</div>
+                    <div class="album-artist">백예린</div>
+                </div>
+                <div class="albumWrapper__item">
+                    <img class="album-thumbnail" src="./images/playlist-03.jpg">
+                    <div class="album-songtitle">small girl</div>
+                    <div class="album-artist">이영지</div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper__body">
+            <div class="header__title">
+                <div class="title">Playlist</div>
+                <div class="subtitle">TODAY CHOICE</div>
+            </div>
+            <table class="albumTable">
+                <tr>
+                    <th class="albumTable__checkbox"><input type="checkbox"></th>
+                    <th class="albumTable__number">번호</th>
+                    <th class="albumTable__song">곡명</th>
+                    <th class="albumTable__artist">아티스트</th>
+                </tr>
+                <tr>
+                    <td class="album-table-checkbox"><input type="checkbox" /></td>
+                    <td class="album-table-number">1</td>
+                    <td class="album-table-song"><i class="fas fa-caret-right arrow"></i> 김철수 씨 이야기</td>
+                    <td class="album-table-artist">허회경</td>
+                </tr>
+                <tr>
+                    <td class="album-table-checkbox"><input type="checkbox" /></td>
+                    <td class="album-table-number">2</td>
+                    <td class="album-table-song"><i class="fas fa-caret-right arrow"></i> 담다디</td>
+                    <td class="album-table-artist">이상은</td>
+                </tr>
+                <tr>
+                    <td class="album-table-checkbox"><input type="checkbox" /></td>
+                    <td class="album-table-number">3</td>
+                    <td class="album-table-song"><i class="fas fa-caret-right arrow"></i> 민들레 - single ver.</td>
+                    <td class="album-table-artist">우효</td>
+                </tr>
+                <tr>
+                    <td class="album-table-checkbox"><input type="checkbox" /></td>
+                    <td class="album-table-number">4</td>
+                    <td class="album-table-song"><i class="fas fa-caret-right arrow"></i> 아침만 남겨주고</td>
+                    <td class="album-table-artist">김현창</td>
+                </tr>
+                <tr>
+                    <td class="album-table-checkbox"><input type="checkbox" /></td>
+                    <td class="album-table-number">5</td>
+                    <td class="album-table-song"><i class="fas fa-caret-right arrow"></i> 한 페이지가 될 수 있게</td>
+                    <td class="album-table-artist">DAY6</td>
+                </tr>
+            </table>
+            <div class="albumTable__footer">
+                <div class="albumTable__footer__left">
+                    <button>듣기</button>
+                </div>
+                <div class="albumTable__footer__center">
+                    | <span>1</span> |
+                </div>
+                <div class="albumTable__footer__right">
+                    <button>이동</button>
+                    <button>배경음악 등록</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
